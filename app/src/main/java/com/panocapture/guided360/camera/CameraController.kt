@@ -19,7 +19,7 @@ import com.panocapture.guided360.domain.model.CameraIntrinsics
 import java.io.File
 import java.io.FileOutputStream
 import kotlin.coroutines.resume
-import kotlin.coroutines.suspendCancellableCoroutine
+import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.math.atan
 
 class CameraController(private val context: Context) {
